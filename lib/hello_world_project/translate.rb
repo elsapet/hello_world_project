@@ -10,11 +10,13 @@ module HelloWorldProject
 			'isixhosa' 	=> 	'molweni'
 		}
 
+		attr_accessor :language
+
 		def initialize(language)
 			@language = if SUPPORTED_LANGUAGES.key? language
 										language
 									else
-										SUPPORTED_LANGUAGES.default
+										'default'
 									end
 		end
 
