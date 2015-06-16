@@ -7,6 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "hello_world_project"
   spec.version       = HelloWorldProject::VERSION
   spec.authors       = ["elsapet"]
+  spec.homepage      = "https://github.com/elsapet/hello_world_project"
   spec.summary       = %q{Say hello to the world!}
   spec.description   = %q{A simple Hello World gem (based on rubygems.org introductory tutorial)}
   spec.license       = "MIT"
