@@ -2,12 +2,12 @@ module HelloWorldProject
 	class Translate
 
 		SUPPORTED_LANGUAGES = {
-			default: 		'hello world',
-			deutsch: 		'guten tag',
-			dinosaur: 	'rawr!'
-			english: 		'hello world',
-			francais: 	'salut tout le monde',
-			isixhosa: 	'molweni'
+			'default' 	=> 	'hello world',
+			'deutsch' 	=> 	'guten tag',
+			'dinosaur' 	=> 	'rawr!',
+			'english' 	=> 	'hello world',
+			'francais' 	=> 	'salut tout le monde',
+			'isixhosa' 	=> 	'molweni'
 		}
 
 		def initialize(language)
