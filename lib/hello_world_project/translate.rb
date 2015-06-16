@@ -1,4 +1,4 @@
-class HelloWorldProject
+module HelloWorldProject
 	class Translate
 
 		SUPPORTED_LANGUAGES = {

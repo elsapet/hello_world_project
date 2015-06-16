@@ -1,4 +1,4 @@
-class HelloWorldProject
+module HelloWorldProject
 	class Base
 
 		def self.say_hello(language = 'english')
