@@ -1,6 +1,10 @@
 # HelloWorldProject
 
-TODO: Write a gem description
+New to Ruby? New to git? Bewildered by gems and pull requests? Me too! Let's start small together and *say hello to the beautiful world* of Ruby gems and open source technology. 
+
+## How it works
+
+We want everyone to have the chance to say hello in whichever language they prefer. Have a look at (this class)[https://github.com/elsapet/hello_world_project/blob/master/lib/hello_world_project/translate.rb]. Is your language in the ```SUPPORTED_LANGUAGES``` hash? If not, (add it)[https://github.com/elsapet/hello_world_project#contributing]! If so, is it correct? Can you think of another greeting to add? (Add that one instead)[https://github.com/elsapet/hello_world_project#contributing]!
 
 ## Installation
 
@@ -18,9 +22,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+
 
 ## Contributing
+
+It's easy! 
 
 1. Fork it ( https://github.com/[my-github-username]/hello_world_project/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
