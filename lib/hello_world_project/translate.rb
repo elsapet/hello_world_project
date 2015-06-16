@@ -2,6 +2,7 @@ module HelloWorldProject
 	class Translate
 
 		SUPPORTED_LANGUAGES = {
+			'dansk'			=> 	'hej verden',
 			'default' 	=> 	'hello world',
 			'deutsch' 	=> 	'guten tag',
 			'dinosaur' 	=> 	'rawr!',
@@ -14,7 +15,7 @@ module HelloWorldProject
 
 		def initialize(language)
 			@language = if SUPPORTED_LANGUAGES.key? language
-										language
+										language.downcase
 									else
 										'default'
 									end
